@@ -42,9 +42,17 @@ Nhận diện kernel XanMod và tự động thêm psi=1 vào GRUB nếu thiếu
 1. Download waydroid-installer.sh / Tải tệp waydroid-installer.sh về máy.
 2. Make it executable (chmod +x waydroid-installer.sh or via file Properties) / Cấp quyền thực thi cho tệp.
 3. Double-click the file (or run it in terminal) to install or uninstall / Nhấp đúp vào tệp (hoặc chạy trong terminal) để cài đặt hoặc gỡ bỏ.
+   
 Optional CLI Flags / Tùy chọn dòng lệnh bổ sung:
+
 • --check: Run compatibility preflight checks without making changes / Kiểm tra độ tương thích hệ thống mà không thay đổi gì.
+
 • --diag: Generate a full diagnostic log for troubleshooting / Xuất báo cáo chẩn đoán chi tiết để gỡ lỗi.
+
 • --update-helpers: Update the cage launcher and APK handler scripts / Cập nhật nhanh script khởi chạy cage và trình cài APK.
+
 • --fake-touch <package.name>: Enable touch emulation for a specific app / Bật giả lập cảm ứng cho một ứng dụng cụ thể.
+
 • --fresh: Clear saved progress from an incomplete run and start over / Xóa tiến trình lưu tạm của lần cài dở trước đó để chạy lại từ đầu.
+
+Download here https://github.com/dinoking-iot/Waydroid-One-Click-Installer-Uninstaller/releases/tag/Waydroid
